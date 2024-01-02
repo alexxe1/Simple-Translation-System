@@ -4,6 +4,10 @@ A simple asset for implementing translation, based on .csv files, for your [Unit
 ## How does it work?
 - **Simple Translation System** works using `.csv (Comma Separated Values)` files. `.csv` is a pretty convenient file type that separates spreadsheet values using `;`. The idea of this asset is pretty straightforward, you first get the raw data, then convert it to a string array and, finally, retrieve it using a unique ID.
 
+## Download
+[![](https://camo.githubusercontent.com/44bc78b71d31e7ab50bc0804d421f66f7fcabd2b98425ecf6b67c251f1ff14e5/68747470733a2f2f637573746f6d2d69636f6e2d6261646765732e64656d6f6c61622e636f6d2f62616467652f2d446f776e6c6f61642d626c75653f7374796c653d666f722d7468652d6261646765266c6f676f3d646f776e6c6f6164266c6f676f436f6c6f723d7768697465)](https://github.com/alexxe1/Simple-Translation-System/releases/latest/download/TranslationSystem.unitypackage)
+
+
 ## How to use
 0. Create your `.csv` file using [Google Sheets](https://docs.google.com/spreadsheets/u/0/), [Microsoft Excel](https://www.microsoft.com/es-ar/microsoft-365/excel) or any other spreadsheet software. 
 Make sure to format it using this convention:
