@@ -1,6 +1,9 @@
 # Simple Translation System
 A simple asset for implementing translation, based on .csv files, for your [Unity](https://unity.com/) game.
 
+## How does it work?
+- **Simple Translation System** works using `.csv (Comma Separated Values)` files. `.csv` is a pretty convenient file type that separates spreadsheet values using `;`. The idea of this asset is pretty straightforward, you first get the raw data, then convert it to a string array and, finally, retrieve it using a unique ID.
+
 ## How to use
 0. Create your `.csv` file using [Google Sheets](https://docs.google.com/spreadsheets/u/0/), [Microsoft Excel](https://www.microsoft.com/es-ar/microsoft-365/excel) or any other spreadsheet software. 
 Make sure to format it using this convention:
@@ -63,6 +66,16 @@ For example:<br/>
 ```The pancakes were delicious<semicolon> they were fluffy and sweet.```
 <br/>or<br/>
 ```This is the first line.<newline>This is a new line.```
+
+## Inspector Settings
+| Setting name | Description                    |
+| ------------ | ------------------------------ |
+| `Raw data` | The .csv file to extract the data from. |
+| `Debug mode` | Enables the debug mode. |
+| `Singleton` | If enabled, TranslationSystem will behave as a Singleton. |
+| `AutoLoadPreferredLanguage` | Automatically loads the preferred language from the PlayerPrefs. Disabling this requires calling 'LoadPreferredLanguage' method manually. |
+| `PreferredLanguagePath` | The path where the preferred translation will be stored in PlayerPrefs. Leave blank for default ('preferred_language'). | 
+| `AvailableLanguages` | The list with all available languages. |
 
 ## Methods
 | Function name | Parameters| Description                    |
